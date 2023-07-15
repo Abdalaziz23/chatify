@@ -22,7 +22,7 @@ class ChatPageProvider extends ChangeNotifier {
 
   String chatID;
   List<ChatMessage>? messages;
-
+// eslam
   late StreamSubscription messagesStream;
   late StreamSubscription keyboardVisibilityStream;
   late KeyboardVisibilityController keyboardVisibilityController;
